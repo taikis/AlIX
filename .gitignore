@@ -104,5 +104,7 @@ dist
 .tern-port
 
 test.*
-mail/
-cred/
+mail_list.csv
+mail_base.txt
+credentials.json
+token.json
