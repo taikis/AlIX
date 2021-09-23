@@ -1,0 +1,34 @@
+{
+  "name": "alix",
+  "version": "1.0.0",
+  "description": "AℓIX is a Node.js program to broadcast using Gmail.   You can include reference numbers, recipient names, etc. in your email.",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "dependencies": {
+    "csv-parse": "^4.16.3",
+    "googleapis": "^39.2.0",
+    "nodemailer": "^6.6.4",
+    "readline-sync": "^1.4.10",
+    "typescript": "^4.4.3"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/taikis/AlIX.git"
+  },
+  "author": "Taiki Sugawara",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/taikis/AlIX/issues"
+  },
+  "homepage": "https://github.com/taikis/AlIX#readme",
+  "devDependencies": {
+    "@types/node": "^16.9.6",
+    "@types/readline-sync": "^1.4.4",
+    "ts-node": "^10.2.1"
+  }
+}

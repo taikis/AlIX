@@ -1,0 +1,17 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "run TypeScript",
+            "type": "shell",
+            "command": "npx ts-node ${file}"
+        },
+        {
+            "label": "conpile to JavaScript",
+            "type": "shell",
+            "command":"npx tsc"
+        }
+    ]
+}
